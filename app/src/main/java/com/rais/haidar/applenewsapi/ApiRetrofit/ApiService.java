@@ -10,6 +10,6 @@ import retrofit2.http.GET;
  */
 
 public interface ApiService {
-    @GET("everything?q=apple&apiKey=795f5a13a92a46b1bfdd25f8d1307c23")
+    @GET("everything?q=apple&apiKey=742f9c39ed6c4d5c8874aadb10b34b79")
     Call<ResponseNews> readNews();
 }
